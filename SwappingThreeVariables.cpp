@@ -16,9 +16,9 @@ int main()
  cin>>a;
  cout<<"Enter the value of b : ";
  cin>>b;
- c=a;
- a=b;
- b=c;
+ c=a; // 'c' is a temporary storage for variable 'a'
+ a=b; // Assigning the value of 'b' in 'a'
+ b=c; //Assigning the value of 'a' in 'b' as 'c' contains value of 'a'
  cout<<"After swapping a= "<<a<<" and b="<<b;
    return 0;
 }
